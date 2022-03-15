@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import "./typography.css";
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px
+}
+
+.head-left {
+    width: 20%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.head-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-menu {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    float: left;
+}
+
+.header-li {
+    margin: 0px 60px 0px 60px;
+}
+
+.header-link {
+    text-decoration: none;
+    font-family: GothicBold;
+    color: rgb(8, 8, 8);
+    transition: .5s;
+}
+
+.header-link:hover {
+    text-decoration: none;
+    font-family: GothicBold;
+    color: rgb(131, 0, 0);
+}
