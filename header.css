@@ -9,12 +9,12 @@
     padding: 0px 10px 0px 10px
 }
 
-.head-left {
+/* .head-left {
     width: 20%;
-}
+} */
 
 .logo {
-    width: 100%;
+    width: 30%;
 }
 
 .head-right {
@@ -47,4 +47,39 @@ li {
     text-decoration: none;
     font-family: GothicBold;
     color: rgb(131, 0, 0);
+}
+
+@media screen and (max-width: 900px)
+{
+   .logo
+   {
+       width: 60%;
+   }
+
+   .header-menu 
+   {
+       display: flex;
+       justify-content: center;
+       width: 100%;
+   }
+
+   .head-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+   .header-li
+   {
+       /* padding: 0px 10px 0px 10px; */
+       margin: 0px 10px 0px 10px;
+       /* float: left; */
+   }
+}
+
+@media screen and (max-width: 370px)
+{
+    .header-link {
+        font-size: 10px;
+    }
 }

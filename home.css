@@ -16,6 +16,7 @@ main
 {
     height: 70vh;
     width: 100%;
+    max-height: 70vh;
     object-fit: cover;
 }
 
@@ -23,6 +24,12 @@ main
 {
     display: flex;
     flex-direction: column;
+    height: max-content;
+}
+
+.content {
+    height: relative;
+    /* max-height: 100vh;s */
 }
 
 .spacer 
@@ -33,7 +40,8 @@ main
 
 .spacer2
 {
-    padding: 125px 0px 125px 0px;
+    /* padding: 100px 0px 100px 0px; */
+    height: 200px;
 }
 /* 
 .spacer2
@@ -45,6 +53,8 @@ main
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    position: relative;
     background-image: linear-gradient(#434343, #0D0D0D);
 }
 
@@ -52,7 +62,7 @@ main
 .paragraph1
 {
     position: relative;
-    bottom: 200px;
+    /* bottom: 150px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,8 +93,39 @@ main
     transition: 1s;
     top: 10px;
     left: 10px;
+}
 
 
+.house 
+{
+    position: relative;
+    /* bottom: 200px; */
+    top: 75px;
+    left: 70%;
+    width: 35%;
+    z-index: 1;
+}
+
+.ground
+{
+    position: relative;
+    /* bottom: 250px; */
+    width: 100%;
+    /* height: 400px; */
+    z-index: 0;
+}
+
+.lamp
+{
+    position: absolute;
+    /* bottom: 250px; */
+    transform: scaleX(-1);
+    left: 3%;
+    bottom: 10vh;
+    /* top: ; */
+    width: 15%;
+    /* height: 400px; */
+    z-index: 1;
 }
 
 
@@ -127,6 +168,11 @@ main
 }
 
 
+.icon2 {
+    width: 100px;
+}
+
+
 .sub-paragraph {
     display: flex;
     /* flex-direction: column; */
@@ -151,4 +197,64 @@ main
 
 .paragraph-top > .header {
     white-space: nowrap;
+}
+
+.about-box
+{
+    z-index: 1;
+}
+
+.about-box > .paragraph1 > .paragraph-bottom1
+{
+    width: 30%;
+}
+
+
+.about-box > .paragraph1 > .paragraph-top1
+{
+    width: 30%;
+}
+
+@media screen and (max-width: 900px)
+{
+    .sub-paragraph
+    {
+        flex-direction: column;
+    }
+    .paragraph 
+    {
+        align-items: center;
+    }
+    .paragraph1
+    {
+        bottom: 40px;
+    }
+    .paragraph-bottom1
+    {
+        width: 70% !important;
+    }
+    .spacer2
+    {
+        height: 100px;
+    }
+    .house
+    {
+        top: 5vh;
+    }
+    .lamp
+    {
+        bottom: 5vh;
+    }
+    .header
+    {
+        font-size: 20px;
+    }
+    .paragraph-top1
+    {
+        width: 70% !important;
+    }
+    .cover-photo 
+    {
+        max-height: 40vh;
+    }
 }
