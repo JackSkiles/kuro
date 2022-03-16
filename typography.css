@@ -6,3 +6,11 @@
     font-family: "GothicBold";
     src: url("./media/GOTHICB.ttf");
   }
+@font-face {
+    font-family: "Open-sans";
+    src: url("./media/OpenSans-Regular.ttf");
+  }
+@font-face {
+    font-family: "Open-sans-Bold";
+    src: url("./media/OpenSans-Bold.ttf");
+  }
