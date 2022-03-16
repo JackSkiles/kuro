@@ -85,14 +85,29 @@ main
     align-items: center;
     width: 40%;
 }
+/* 
+#moon {
+    transition: .5s;
+    position: relative;
+    width: 17.5%;
+} */
 
 .moon 
 {
     position: relative;
     width: 17.5%;
-    transition: 1s;
     top: 10px;
     left: 10px;
+    transition: .7s;
+}
+
+.firstMoon 
+{
+    position: relative;
+    width: 17.5%;
+    top: 200px;
+    left: 10px;
+    transition: .7s;
 }
 
 
@@ -213,6 +228,11 @@ main
 .about-box > .paragraph1 > .paragraph-top1
 {
     width: 30%;
+}
+
+footer {
+    height: 20vh;
+    background-color: #4b4b4b;
 }
 
 @media screen and (max-width: 900px)
