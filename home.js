@@ -1,6 +1,7 @@
 let moon = document.getElementById('moon')
 let house = document.getElementById('house')
 let lamp = document.getElementById('lamp')
+let text = document.getElementById('text')
 
 // var moon2 = moon.id;
 
@@ -15,7 +16,8 @@ function scrolListener(e) {
     let moonTop = moon.getBoundingClientRect().top
     let houseTop = house.getBoundingClientRect().top
     let lampTop = lamp.getBoundingClientRect().top
-
+    let textTop = text.getBoundingClientRect().top
+    
     if (moonTop < screenBottom && moonTop < screenTop) {
         moon.classList.add("moon");
         moon.classList.remove("moon-start");
@@ -46,8 +48,14 @@ function scrolListener(e) {
         lamp.classList.add("lamp-start");
         console.log("Hello");
     }
+    if ( textTop < screenBottom && textTop < screenTop)
+    {
+        document.getElementById('text').setAttribute("id", "showText");
+    }
 
 }
+
+
 
 
 // if (moonTop < screenBottom && moonTop < screenTop) {
