@@ -435,7 +435,7 @@ footer {
     footer
     {
         justify-content: center;
-        height: 40vh;
+        height: 60vh;
         flex-direction: column;
     }
 }
