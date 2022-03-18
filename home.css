@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 @import "./typography.css";
 
-body 
-{
+body {
     position: relative;
     width: 100%;
     margin: 10px 0px 10px 0px;
@@ -10,14 +9,12 @@ body
 }
 
 
-main 
-{
-    background-color: black; 
+main {
+    background-color: black;
 }
 
 
-.cover-photo 
-{
+.cover-photo {
     height: 70vh;
     width: 100%;
     max-height: 70vh;
@@ -26,8 +23,7 @@ main
 }
 
 
-.cover-div
-{
+.cover-div {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -39,8 +35,7 @@ main
 }
 
 
-.quote, .quote-sub
-{
+.quote, .quote-sub {
     font-family: GothicBold;
     width: 40%;
     text-align: center;
@@ -50,20 +45,17 @@ main
 }
 
 
-.quote
-{
+.quote {
     margin-top: 0px;
 }
 
 
-.quote-sub
-{
+.quote-sub {
     margin-top: 0px;
 }
 
 
-.main-cont
-{
+.main-cont {
     display: flex;
     flex-direction: column;
     height: max-content;
@@ -76,27 +68,25 @@ main
 }
 
 
-.spacer 
-{
+.spacer {
     background-color: white;
     /* padding: 50px 0px 50px 0px; */
     height: 5vh;
 }
 
 
-.spacer2
-{
+.spacer2 {
     /* padding: 100px 0px 100px 0px; */
     height: 200px;
 }
+
 /* 
 .spacer2
 {
     padding: 50px 0px 50px 0px;
 } */
 
-.content 
-{
+.content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -105,8 +95,7 @@ main
 }
 
 
-.paragraph1
-{
+.paragraph1 {
     position: relative;
     /* bottom: 150px; */
     display: flex;
@@ -116,8 +105,7 @@ main
 }
 
 
-.paragraph
-{
+.paragraph {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,14 +113,14 @@ main
 }
 
 
-.paragraph-top1, .paragraph-bottom1 
-{
+.paragraph-top1, .paragraph-bottom1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40%;
 }
+
 /* 
 #moon {
     transition: .5s;
@@ -141,8 +129,7 @@ main
 } */
 
 
-.arrow
-{
+.arrow {
     position: fixed;
     width: 70px;
     opacity: 70%;
@@ -152,8 +139,7 @@ main
 }
 
 
-.moon 
-{
+.moon {
     position: relative;
     width: 17.5%;
     top: 10px;
@@ -162,8 +148,7 @@ main
 }
 
 
-.moon-start
-{
+.moon-start {
     position: relative;
     width: 17.5%;
     top: 200px;
@@ -172,8 +157,7 @@ main
 }
 
 
-.house 
-{
+.house {
     position: relative;
     /* bottom: 200px; */
     top: 75px;
@@ -184,8 +168,7 @@ main
 }
 
 
-.house-start
-{
+.house-start {
     position: relative;
     /* bottom: 200px; */
     top: 75px;
@@ -195,8 +178,7 @@ main
 }
 
 
-.ground
-{
+.ground {
     position: relative;
     /* bottom: 250px; */
     width: 100%;
@@ -205,8 +187,7 @@ main
 }
 
 
-.lamp
-{
+.lamp {
     position: absolute;
     /* bottom: 250px; */
     transform: scaleX(-1);
@@ -220,8 +201,7 @@ main
 }
 
 
-.lamp-start
-{
+.lamp-start {
     position: absolute;
     /* bottom: 250px; */
     transform: scaleX(-1);
@@ -234,38 +214,33 @@ main
 }
 
 
-.header, .header2, .text 
-{
+.header, .header2, .text {
     font-family: open-sans;
     color: white;
     text-align: center;
 }
 
 
-.header 
-{
+.header {
     margin: 5px;
     letter-spacing: 2px;
 }
 
 
-.header2
-{
+.header2 {
     margin: 30px 10px 10px 10px;
     letter-spacing: 2px;
     /* white-space: nowrap; */
 }
 
 
-.text 
-{
+.text {
     text-align: center;
     line-height: 30px;
 }
 
 
-.line 
-{
+.line {
     width: 80%;
 }
 
@@ -294,10 +269,10 @@ main
 }
 
 
-.paragraph-bottom > .text {
+.paragraph-bottom>.text {
     color: #D6D6D6;
-   margin-top: 5px;
-   padding-bottom: 20px;
+    margin-top: 5px;
+    padding-bottom: 20px;
 }
 
 
@@ -306,38 +281,33 @@ main
 }
 
 
-.paragraph-top > .header {
+.paragraph-top>.header {
     white-space: nowrap;
 }
 
 
-.about-box
-{
+.about-box {
     z-index: 1;
 }
 
 
-.about-box > .paragraph1 > .paragraph-bottom1
-{
+.about-box>.paragraph1>.paragraph-bottom1 {
     width: 30%;
 }
 
 
-.about-box > .paragraph1 > .paragraph-top1
-{
+.about-box>.paragraph1>.paragraph-top1 {
     width: 30%;
 }
 
 
 
-.footer-logo
-{
+.footer-logo {
     width: 125px;
 }
 
 
-.footer-Link
-{
+.footer-Link {
     text-decoration: none;
     color: white;
     font-family: GOTHIC;
@@ -346,7 +316,7 @@ main
 }
 
 
-.footer-Link:hover{
+.footer-Link:hover {
     color: rgb(196, 196, 196);
 }
 
@@ -361,13 +331,11 @@ footer {
 }
 
 .footer-right,
-.footer-left
-{
+.footer-left {
     width: 20%;
 }
 
-.footer-center
-{
+.footer-center {
     display: flex;
     justify-content: center;
     width: 60%;
@@ -377,65 +345,69 @@ footer {
     opacity: 0%;
 }
 
-#showText
-{
+#showText {
     opacity: 100%;
     transition: 2s;
 }
 
-@media screen and (max-width: 900px)
-{
-    .sub-paragraph
-    {
+@media screen and (max-width: 900px) {
+    .sub-paragraph {
         flex-direction: column;
     }
-    .paragraph 
-    {
+
+    .paragraph {
         align-items: center;
     }
-    .paragraph1
-    {
+
+    .paragraph1 {
         bottom: 40px;
     }
-    .paragraph-bottom1
-    {
+
+    .paragraph-bottom1 {
         width: 70% !important;
     }
-    .spacer2
-    {
+
+    .spacer2 {
         height: 100px;
     }
-    .house
-    {
+
+    .house {
         top: 5vh;
     }
-    .lamp
-    {
+
+    .lamp {
         bottom: 5vh;
     }
-    .header
-    {
+
+    .header {
         font-size: 20px;
     }
-    .paragraph-top1
-    {
+
+    .paragraph-top1 {
         width: 70% !important;
     }
-    .cover-photo 
-    {
+
+    .cover-photo {
         max-height: 40vh;
     }
-    .cover-div
-    {
+
+    .cover-div {
         bottom: 33vh;
     }
+
     .arrow {
         display: none;
     }
-    footer
-    {
+
+    footer {
         justify-content: center;
         height: 60vh;
         flex-direction: column;
+    }
+
+    .footer-right,
+    .footer-left {
+        width: 80%;
+        margin: 20px 0px 20px 0px;
     }
 }

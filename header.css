@@ -75,6 +75,9 @@ li {
        margin: 0px 10px 0px 10px;
        /* float: left; */
    }
+   .header-link {
+    font-size: 14px;
+}
 }
 
 @media screen and (max-width: 370px)
